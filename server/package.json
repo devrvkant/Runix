@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server of Runix",
+  "homepage": "https://github.com/devrvkant/Runix#readme",
+  "bugs": {
+    "url": "https://github.com/devrvkant/Runix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrvkant/Runix.git"
+  },
+  "license": "ISC",
+  "author": "devrvkant",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
